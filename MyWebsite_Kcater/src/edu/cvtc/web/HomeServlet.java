@@ -23,7 +23,7 @@ public class HomeServlet extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		out.append("<!DOCTYPE html>\n<html>\n<head>\n<title>My Website</title>\n</head>\n<body>\n");
 		out.append("<header>\n<h1>Home</h1></header>\n\n");
-		out.append("<nav>\n<a href='AboutServlet'>About</a> <a href='ContactServlet'>Contact</a>\n</nav>\n");
+		out.append("<nav>\n<a href='HomeServlet'>Home</a>\n<a href='AboutServlet'>About</a> <a href='ContactServlet'>Contact</a>\n</nav>\n");
 		out.append("<div>");
 		out.append("<p>Text goes here</p>");
 		out.append("");
@@ -36,7 +36,6 @@ public class HomeServlet extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
 		doGet(request, response);
 	}
 
