@@ -25,8 +25,9 @@ public class HomeServlet extends HttpServlet {
 		out.append("<header>\n<h1>Home</h1></header>\n\n");
 		out.append("<nav>\n<a href='HomeServlet'>Home</a>\n<a href='AboutServlet'>About</a> <a href='ContactServlet'>Contact</a>\n</nav>\n");
 		out.append("<div>");
-		out.append("<p>Text goes here</p>");
-		out.append("");
+		out.append("<p>Hello this is a simple website about me. I created it for my Java Web class and plan to continue to use it as an example of my capabilities in Software and Web Development</p>\n");
+		out.append("<p>This website will include past projects, my resume, current projects, information about me as a person, and more as I come up with more to add.</p>");
+		out.append("<h2>To Do List:</h2>\n<p>This is a list of what I plan to do on this website</p>\n<ul>\n<li>\nAdd pages for past projects, current projects, and resume</li>\n<li>Style website to look nicer</li>\n<li>Make contact page functional</li>\n</ul>\n");
 		out.append("</div>\n");
 		out.append("<footer>&copy; Copyright 2016 Katherine Cater</footer>\n");
 		out.append("</body>\n</html>");
